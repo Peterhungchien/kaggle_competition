@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "kaggle-competition"
+version = "0.1.0"
+description = "Code for Kaggle competitions"
+authors = ["hungchien <hungchienpeter@gmail.com>"]
+readme = "README.md"
+packages = [{include = "kaggle_competition"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.25.1"
+pandas = "^2.0.3"
+scikit-learn = "^1.3.0"
+seaborn = "^0.12.2"
+matplotlib = "^3.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
